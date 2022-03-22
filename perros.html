@@ -5,129 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perros</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
     <h1 style="text-align: center;">Perros en adopciom</h1>
     <ol>
-        <li>Cachupin</li>
-        <img src="imagenes/cachupin.jpg" style="width:300px;height:300px;">
-        <style>
-            table, th, td {
-              border: 1px solid black;
-              border-collapse: collapse;
-            }
-        </style>
-    <table style="width:50%">
-        <tr>
-            <th>Nombre</th>
-            <th>Sexo</th>
-            <th>Edad</th>
-            <th>Esterilizado</th>
-            <th>Chip de identificación</th>
-        </tr>
-        <tr>
-            <td>Cachupin</td> 
-            <td>Macho</td>
-            <td>4 años</td> 
-            <td>Si</td>
-            <td>245561938051738</td>
-        </tr>
-    </table>
-        <li>Lina</li>
-        <img src="imagenes/lina.jpg" style="width:300px;height:300px;">
-        <style>
-            table, th, td {
-              border: 1px solid black;
-              border-collapse: collapse;
-            }
-        </style>
-    <table style="width:50%">
-        <tr>
-            <th>Nombre</th>
-            <th>Sexo</th>
-            <th>Edad</th>
-            <th>Esterilizado</th>
-            <th>Chip de identificación</th>
-        </tr>
-        <tr>
-            <td>Lina</td> 
-            <td>Hembra</td>
-            <td>2 años</td> 
-            <td>Si</td>
-            <td>242564333041338</td>
-        </tr>
-    </table>
-        <li>Quiara</li>
-        <img src="imagenes/quiara.jpg" style="width:300px;height:300px;">
-        <style>
-            table, th, td {
-              border: 1px solid black;
-              border-collapse: collapse;
-            }
-        </style>
-    <table style="width:50%">
-        <tr>
-            <th>Nombre</th>
-            <th>Sexo</th>
-            <th>Edad</th>
-            <th>Esterilizado</th>
-            <th>Chip de identificación</th>
-        </tr>
-        <tr>
-            <td>Quiara</td> 
-            <td>Hembra</td>
-            <td>7 años</td> 
-            <td>No</td>
-            <td>142994333041458</td>
-        </tr>
-    </table>
-        <li>Juancha</li>
-        <img src="imagenes/juancha.jpg" style="width:300px;height:300px;">
-        <style>
-            table, th, td {
-              border: 1px solid black;
-              border-collapse: collapse;
-            }
-        </style>
-    <table style="width:50%">
-        <tr>
-            <th>Nombre</th>
-            <th>Sexo</th>
-            <th>Edad</th>
-            <th>Esterilizado</th>
-            <th>Chip de identificación</th>
-        </tr>
-        <tr>
-            <td>Juancha</td> 
-            <td>Hembra</td>
-            <td>8 años</td> 
-            <td>No</td>
-            <td>048561938631713</td>
-        </tr>
-    </table>
-        <li>Cochino</li>
-        <img src="imagenes/cochino.jpg" style="width:300px;height:300px;">
-        <style>
-            table, th, td {
-              border: 1px solid black;
-              border-collapse: collapse;
-            }
-        </style>
-    <table style="width:50%">
-        <tr>
-            <th>Nombre</th>
-            <th>Sexo</th>
-            <th>Edad</th>
-            <th>Esterilizado</th>
-            <th>Chip de identificación</th>
-        </tr>
-        <tr>
-            <td>Cochino</td> 
-            <td>Macho</td>
-            <td>3 años</td> 
-            <td>No</td>
-            <td>548564978631713</td>
-        </tr>
-    </ol>
+        <div class="row">
+            <div class="col-sm-12" ><li>Cachupin</li> </div>
+            <div class="col-sm-4" ><img src="imagenes/cachupin.jpg" style="width:300px;height:300px;"></div>
+            <div class="col-sm-8" >
+              <ul>
+                <li>Nombre:Cachupin</li>
+                <li>Sexo:Macho</li>
+                <li>Edad:4 años</li>
+                <li>Esterilizado:Si</li>
+                <li>Chip de identificación:245561938051738</li>
+              </div>
+        <div class="col-sm-12" ><li>Lina</li> </div>
+        <div class="col-sm-4" ><img src="imagenes/lina.jpg" style="width:300px;height:300px;"></div>
+            <div class="col-sm-8" >
+              <ul>
+                <li>Nombre:Lina</li>
+                <li>Sexo:Hembra</li>
+                <li>Edad:2 años</li>
+                <li>Esterilizado:Si</li>
+                <li>Chip de identificación:242564333041338</li>
+              </div>
+        <div class="col-sm-12" ><li>Quiara</li> </div>
+            <div class="col-sm-4" ><img src="imagenes/quiara.jpg" style="width:300px;height:300px;"></div>
+              <div class="col-sm-8" >
+              <ul>
+                 <li>Nombre:Quiara</li>
+                 <li>Sexo:Hembra</li>
+                 <li>Edad:7 años</li>
+                 <li>Esterilizado:No</li>
+                <li>Chip de identificación:142994333041458</li>
+              </div>
+         <div class="col-sm-12" ><li>Juancha</li> </div>
+         <div class="col-sm-4" ><img src="imagenes/juancha.jpg" style="width:300px;height:300px;"></div>
+         <div class="col-sm-8" >
+            <ul>
+                <li>Nombre:Juancha</li>
+                <li>Sexo:Hembra</li>
+               <li>Edad:8 años</li>
+               <li>Esterilizado:No</li>
+                <li>Chip de identificación:048561938631713</li>
+             </div> 
+             <div class="col-sm-12" ><li>Cochino</li> </div>
+             <div class="col-sm-4" ><img src="imagenes/cochino.jpg" style="width:300px;height:300px;"></div>
+             <div class="col-sm-8" >
+                <ul>
+                    <li>Nombre:Cochino</li>
+                    <li>Sexo:Macho</li>
+                   <li>Edad:3 años</li>
+                   <li>Esterilizado:No</li>
+                    <li>Chip de identificación:548564978631713</li>
+                 </div>           
+        </div>
 </body>
 </html>
